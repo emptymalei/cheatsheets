@@ -80,7 +80,7 @@ See: [Functions](#functions)
 ```bash
 if [ -z "$string" ]; then
   echo "String is empty"
-elsif [ -n "$string" ]; then
+elif [ -n "$string" ]; then
   echo "String is not empty"
 fi
 ```
@@ -350,7 +350,7 @@ Conditionals
 # String
 if [ -z "$string" ]; then
   echo "String is empty"
-elsif [ -n "$string" ]; then
+elif [ -n "$string" ]; then
   echo "String is not empty"
 fi
 ```
@@ -610,9 +610,9 @@ echo $ans
 read -n 1 ans    # Just one character
 ```
 
-### Process IDs
+### Special variables
 
-| `$?` | PID of last foreground task |
+| `$?` | Exit status of last task |
 | `$!` | PID of last background task |
 | `$$` | PID of shell |
 
